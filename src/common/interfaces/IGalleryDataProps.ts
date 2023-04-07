@@ -1,5 +1,8 @@
+import { StaticImageData } from "next/image";
+
 export interface IGalleryDataProps {
   id: number;
-  src: string;
+  src: StaticImageData;
+  url: string;
   alt: string;
 }

@@ -1,18 +1,21 @@
 import React, { ReactElement } from "react";
 import styles from "../styles/Contact.module.scss";
-import { PageWrapper } from "@/components/page-wrapper/PageWrapper";
 import { SubpageHeader } from "@/components/subpage-header/SubpageHeader";
 import { useTranslation } from "react-i18next";
 import { SubpageSectionWrapper } from "@/components/subpage-section-wrapper/SubpageSectionWrapper";
 import { TextSection } from "@/components/text-section/TextSection";
 import { NextPageWithLayout } from "@/pages/_app";
 import { Layout } from "@/components/layout/Layout";
+import Head from "next/head";
 
 const Kontakt: NextPageWithLayout = () => {
   const [t] = useTranslation();
 
   return (
     <>
+      <Head>
+        <title>Kontakt - Tapicerstwo Stalmach</title>
+      </Head>
       <SubpageHeader header={t("contact.title")} />
       <SubpageSectionWrapper onRight={false}>
         <div className={styles.mapWrapper}>

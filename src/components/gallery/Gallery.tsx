@@ -4,6 +4,7 @@ import { IGalleryProps } from "./IGalleryProps";
 import { TextSection } from "../text-section/TextSection";
 import { GalleryItem } from "./components/GalleryItem";
 import FsLightbox from "fslightbox-react";
+import Image from "next/image";
 
 export const Gallery = (props: IGalleryProps) => {
   const [lightboxController, setLightboxController] = useState<{
@@ -41,7 +42,13 @@ export const Gallery = (props: IGalleryProps) => {
       <div className={styles.gallery}>{showGallery()}</div>
       <FsLightbox
         toggler={lightboxController.show}
-        sources={[...props.src.map((item) => item.src)]}
+        sources={[
+          ...props.src.map((item) => {
+            return (
+              <Image src={item.src} alt={item.alt} className={styles.image} />
+            );
+          }),
+        ]}
         slide={lightboxController.slide}
       />
     </div>

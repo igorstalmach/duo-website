@@ -1,6 +1,5 @@
 import React, { ReactElement } from "react";
 import styles from "../styles/ChurchBenches.module.scss";
-import { PageWrapper } from "@/components/page-wrapper/PageWrapper";
 import { SubpageHeader } from "@/components/subpage-header/SubpageHeader";
 import { useTranslation } from "react-i18next";
 import { SubpageSectionWrapper } from "@/components/subpage-section-wrapper/SubpageSectionWrapper";
@@ -12,12 +11,16 @@ import { churchBenchGallery } from "@/common/data/churchBenchGallery";
 import Image from "next/image";
 import { NextPageWithLayout } from "@/pages/_app";
 import { Layout } from "@/components/layout/Layout";
+import Head from "next/head";
 
 const LawkiKoscielne: NextPageWithLayout = () => {
   const [t] = useTranslation();
 
   return (
     <>
+      <Head>
+        <title>Ławki kościelne - Tapicerstwo Stalmach</title>
+      </Head>
       <SubpageHeader header={t("churchBenches.title")} />
       <SubpageSectionWrapper onRight={false}>
         <Image src={img} className={styles.image} alt={"Furniture"} />

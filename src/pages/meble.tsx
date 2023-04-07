@@ -1,6 +1,5 @@
 import React, { ReactElement } from "react";
 import styles from "../styles/Furniture.module.scss";
-import { PageWrapper } from "@/components/page-wrapper/PageWrapper";
 import { SubpageHeader } from "@/components/subpage-header/SubpageHeader";
 import { useTranslation } from "react-i18next";
 import { SubpageSectionWrapper } from "@/components/subpage-section-wrapper/SubpageSectionWrapper";
@@ -10,12 +9,16 @@ import img_2 from "../assets/images/images/img_2.png";
 import Image from "next/image";
 import { NextPageWithLayout } from "@/pages/_app";
 import { Layout } from "@/components/layout/Layout";
+import Head from "next/head";
 
 const Meble: NextPageWithLayout = () => {
   const [t] = useTranslation();
 
   return (
     <>
+      <Head>
+        <title>Meble - Tapicerstwo Stalmach</title>
+      </Head>
       <SubpageHeader header={t("furniture.title")} />
       <SubpageSectionWrapper onRight={false}>
         <Image src={img} className={styles.image} alt={"Furniture"} />

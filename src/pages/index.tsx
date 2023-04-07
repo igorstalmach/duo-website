@@ -6,16 +6,20 @@ import img_1 from "../assets/images/images/img_1.png";
 import img_2 from "../assets/images/images/img_2.png";
 import { TextSection } from "@/components/text-section/TextSection";
 import { SubpageSectionWrapper } from "@/components/subpage-section-wrapper/SubpageSectionWrapper";
-import { HomeWelcome } from "@/components/HomeWelcome/HomeWelcome";
+import { HomeWelcome } from "@/components/home-welcome/HomeWelcome";
 import Image from "next/image";
 import { NextPageWithLayout } from "@/pages/_app";
 import { Layout } from "@/components/layout/Layout";
+import Head from "next/head";
 
 const Home: NextPageWithLayout = () => {
   const [t] = useTranslation();
 
   return (
     <>
+      <Head>
+        <title>Tapicerstwo Stalmach</title>
+      </Head>
       <HomeWelcome />
       <SubpageSectionWrapper onRight={false}>
         <Image src={img} className={styles.image} alt={"Furniture"} />
