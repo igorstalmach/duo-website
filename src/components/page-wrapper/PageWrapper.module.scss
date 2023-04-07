@@ -1,0 +1,17 @@
+@import "../../assets/styles/colors.module";
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/breakpoints.module";
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.625rem;
+  min-height: clamp(800px, 100dvh, 1500px);
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 10rem;
+
+  @include breakpoint-md {
+    margin-bottom: 5rem;
+  }
+}

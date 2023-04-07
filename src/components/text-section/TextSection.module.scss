@@ -1,0 +1,52 @@
+@import "../../assets/styles/colors.module";
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/breakpoints.module";
+
+.textSection {
+  width: 100%;
+  text-align: justify;
+
+  .header {
+    font-family: $roboto;
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: $lightRed;
+    margin-bottom: 0.5rem;
+
+    @include breakpoint-md {
+      font-size: 1.4rem;
+    }
+
+    @include breakpoint-s {
+      font-size: 1.2rem;
+    }
+  }
+
+  .text {
+    font-family: $roboto;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: $lightFont;
+    margin-bottom: 1.25rem;
+
+    @include breakpoint-md {
+      font-size: 1rem;
+    }
+
+    @include breakpoint-s {
+      font-size: 0.8rem;
+    }
+  }
+
+  .alignLeft {
+    text-align: start;
+  }
+
+  .alignRight {
+    text-align: end;
+
+    @include breakpoint-md {
+      text-align: start;
+    }
+  }
+}

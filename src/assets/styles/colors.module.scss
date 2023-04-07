@@ -1,0 +1,13 @@
+$lightBackground: #fff;
+$lightFont: #000;
+$lightRed: #ff3f25;
+$lightBlue: #97f8ff;
+$lightMenuBackground: rgba(255, 255, 255, 0.9);
+
+:export {
+  lightBackground: $lightBackground;
+  lightFont: $lightFont;
+  lightRed: $lightRed;
+  lightBlue: $lightBlue;
+  lightMenuBackground: $lightMenuBackground;
+}

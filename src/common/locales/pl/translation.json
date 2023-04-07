@@ -1,0 +1,61 @@
+{
+  "home": {
+    "hero": {
+      "title": "PRACOWNIA TAPICERSKA",
+      "subtitle": "Firma \"Duo\""
+    },
+    "firstSection": {
+      "header": "HEADER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+    },
+    "secondSection": {
+      "header": "HEADER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim."
+    },
+    "thirdSection": {
+      "header": "HEADER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+    }
+  },
+  "churchBenches": {
+    "title": "ŁAWKI KOŚCIELNE",
+    "firstSection": {
+      "header": "HEADER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+    },
+    "secondSection": {
+      "header": "HEADER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim."
+    },
+    "gallery": "GALERIA"
+  },
+  "furniture": {
+    "title": "MEBLE",
+    "firstSection": {
+      "header": "HEADER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+    },
+    "secondSection": {
+      "header": "HEADER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim."
+    }
+  },
+  "other": {
+    "title": "INNE",
+    "firstSection": {
+      "header": "HEADER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+    },
+    "secondSection": {
+      "header": "HEADER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim."
+    }
+  },
+  "contact": {
+    "title": "KONTAKT",
+    "firstSection": {
+      "header": "HEADER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+    }
+  }
+}

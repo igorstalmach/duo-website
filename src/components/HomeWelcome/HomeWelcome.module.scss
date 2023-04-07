@@ -1,0 +1,40 @@
+@import "../../assets/styles/colors.module";
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/breakpoints.module";
+
+.container {
+  grid-column: 1 / 13;
+  width: 100%;
+  margin: 15rem 0 5rem 0;
+  text-align: center;
+  padding: 0 2rem;
+  font-family: $abrilFatface;
+  font-size: 4.375rem;
+  font-weight: 400;
+
+  .title {
+    color: $lightFont;
+  }
+
+  .subtitle {
+    color: $lightRed;
+  }
+
+  @include breakpoint-xl {
+    font-size: 4rem;
+  }
+
+  @include breakpoint-md {
+    font-size: 3rem;
+  }
+
+  @include breakpoint-m {
+    font-size: 2.5rem;
+    margin: 12rem 0 5rem 0;
+    padding: 0 1rem;
+  }
+
+  @include breakpoint-s {
+    font-size: 2.25rem;
+  }
+}

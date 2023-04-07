@@ -1,0 +1,59 @@
+@import "../../assets/styles/colors.module";
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/breakpoints.module";
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+
+  .wrapper {
+    grid-column: 2 / 12;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include breakpoint-xxl {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .navlinks {
+      @include breakpoint-sm {
+        display: none;
+      }
+    }
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 3rem;
+      font-family: $roboto;
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: $lightFont;
+
+      @include breakpoint-lg {
+        font-size: 1rem;
+      }
+
+      @include breakpoint-sm {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      @include breakpoint-s {
+        font-size: 0.9rem;
+      }
+
+      .click:hover {
+        cursor: pointer;
+        opacity: 0.7;
+      }
+    }
+  }
+}

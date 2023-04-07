@@ -9,12 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/fslightbox-react": "^1.7.1",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
+    "fslightbox-react": "^1.7.2",
+    "i18next": "^22.4.14",
+    "i18next-browser-languagedetector": "^7.0.1",
     "next": "13.3.0",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-i18next": "^12.2.0",
+    "sass": "^1.61.0",
     "typescript": "5.0.4"
   }
 }

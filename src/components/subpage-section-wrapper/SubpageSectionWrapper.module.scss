@@ -1,0 +1,28 @@
+@import "../../assets/styles/colors.module";
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/breakpoints.module";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.leftWrapper {
+  grid-column: 2 / 6;
+
+  @include breakpoint-md {
+    grid-column: 2 / 12;
+    margin-bottom: 2rem;
+  }
+}
+
+.rightWrapper {
+  grid-column: 7 / 12;
+
+  @include breakpoint-md {
+    grid-column: 2 / 12;
+  }
+}
