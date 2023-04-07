@@ -41,7 +41,7 @@ export const Gallery = (props: IGalleryProps) => {
       <div className={styles.gallery}>{showGallery()}</div>
       <FsLightbox
         toggler={lightboxController.show}
-        sources={[...props.src.map((item) => String(item.src))]}
+        sources={[...props.src.map((item) => item.src)]}
         slide={lightboxController.slide}
       />
     </div>

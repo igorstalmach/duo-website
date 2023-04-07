@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import styles from "../styles/Furniture.module.scss";
 import { PageWrapper } from "@/components/page-wrapper/PageWrapper";
 import { SubpageHeader } from "@/components/subpage-header/SubpageHeader";
@@ -8,12 +8,14 @@ import img from "../assets/images/images/img.png";
 import { TextSection } from "@/components/text-section/TextSection";
 import img_2 from "../assets/images/images/img_2.png";
 import Image from "next/image";
+import { NextPageWithLayout } from "@/pages/_app";
+import { Layout } from "@/components/layout/Layout";
 
-const Meble = () => {
+const Meble: NextPageWithLayout = () => {
   const [t] = useTranslation();
 
   return (
-    <PageWrapper>
+    <>
       <SubpageHeader header={t("furniture.title")} />
       <SubpageSectionWrapper onRight={false}>
         <Image src={img} className={styles.image} alt={"Furniture"} />
@@ -31,8 +33,12 @@ const Meble = () => {
         />
         <Image src={img_2} className={styles.image} alt={"Furniture"} />
       </SubpageSectionWrapper>
-    </PageWrapper>
+    </>
   );
+};
+
+Meble.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>;
 };
 
 export default Meble;

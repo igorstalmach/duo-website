@@ -1,16 +1,18 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import styles from "../styles/Contact.module.scss";
 import { PageWrapper } from "@/components/page-wrapper/PageWrapper";
 import { SubpageHeader } from "@/components/subpage-header/SubpageHeader";
 import { useTranslation } from "react-i18next";
 import { SubpageSectionWrapper } from "@/components/subpage-section-wrapper/SubpageSectionWrapper";
 import { TextSection } from "@/components/text-section/TextSection";
+import { NextPageWithLayout } from "@/pages/_app";
+import { Layout } from "@/components/layout/Layout";
 
-const Kontakt = () => {
+const Kontakt: NextPageWithLayout = () => {
   const [t] = useTranslation();
 
   return (
-    <PageWrapper>
+    <>
       <SubpageHeader header={t("contact.title")} />
       <SubpageSectionWrapper onRight={false}>
         <div className={styles.mapWrapper}>
@@ -28,8 +30,12 @@ const Kontakt = () => {
           onRight={false}
         />
       </SubpageSectionWrapper>
-    </PageWrapper>
+    </>
   );
+};
+
+Kontakt.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>;
 };
 
 export default Kontakt;

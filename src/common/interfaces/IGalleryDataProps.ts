@@ -1,5 +1,5 @@
 export interface IGalleryDataProps {
   id: number;
-  src: File;
+  src: string;
   alt: string;
 }

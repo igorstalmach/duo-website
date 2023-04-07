@@ -1,5 +1,5 @@
 import React from "react";
-import { IIconProps } from "../../common/interfaces/IIconProps";
+import { IIconProps } from "@/common/interfaces/IIconProps";
 
 export const IconMenuClosed = (props: IIconProps) => {
   return (

@@ -1,4 +1,4 @@
-import { IGalleryDataProps } from "../../common/interfaces/IGalleryDataProps";
+import { IGalleryDataProps } from "@/common/interfaces/IGalleryDataProps";
 
 export interface IGalleryProps {
   src: IGalleryDataProps[];

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./SubpageSectionWrapper.module.scss";
 import { ISubpageSectionWrapper } from "./ISubpageSectionWrapper";
-import { joinClasses } from "../../common/utils/joinClasses";
+import { joinClasses } from "@/common/utils/joinClasses";
 
 export const SubpageSectionWrapper = (props: ISubpageSectionWrapper) => {
   return (

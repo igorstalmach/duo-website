@@ -1,6 +1,6 @@
 export interface IGalleryItemProps {
   id: number;
-  src: File;
+  src: string;
   alt: string;
   changeSlide: () => void;
 }
