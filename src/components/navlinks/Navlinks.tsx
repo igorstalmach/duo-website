@@ -2,16 +2,10 @@ import React from "react";
 import styles from "./Navlinks.module.scss";
 import Link from "next/link";
 import { INavlinksProps } from "./INavlinksProps";
-import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
+import { ChangeLocaleButton } from "@/components/change-locale-button/ChangeLocaleButton";
 
 export const Navlinks = (props: INavlinksProps) => {
-  const router = useRouter();
-  const onToggleLanguageClick = (newLocale: string) => {
-    const { pathname, asPath, query } = router;
-    router.push({ pathname, query }, asPath, { locale: newLocale });
-  };
-  const changeTo = router.locale === "pl" ? "en" : "pl";
   const [t] = useTranslation();
 
   return (
@@ -57,12 +51,7 @@ export const Navlinks = (props: INavlinksProps) => {
       >
         {t("navlinks.contact")}
       </Link>
-      <button
-        className={styles.link}
-        onClick={() => onToggleLanguageClick(changeTo)}
-      >
-        {t("navlinks.changeLocale", { changeTo })}
-      </button>
+      <ChangeLocaleButton />
     </nav>
   );
 };

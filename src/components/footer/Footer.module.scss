@@ -54,6 +54,14 @@
         cursor: pointer;
         opacity: 0.7;
       }
+
+      .localeButton {
+        display: none;
+
+        @include breakpoint-sm {
+          display: block;
+        }
+      }
     }
 
     * > p {

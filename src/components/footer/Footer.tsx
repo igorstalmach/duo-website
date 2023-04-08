@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.scss";
 import { Navlinks } from "../navlinks/Navlinks";
+import { ChangeLocaleButton } from "@/components/change-locale-button/ChangeLocaleButton";
 
 export const Footer = () => {
   return (
@@ -16,6 +17,9 @@ export const Footer = () => {
           >
             +48 509 225 754
           </p>
+          <div className={styles.localeButton}>
+            <ChangeLocaleButton />
+          </div>
           <p
             className={styles.click}
             onClick={() =>
