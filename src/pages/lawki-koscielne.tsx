@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import styles from "../styles/ChurchBenches.module.scss";
 import { SubpageHeader } from "@/components/subpage-header/SubpageHeader";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 import { SubpageSectionWrapper } from "@/components/subpage-section-wrapper/SubpageSectionWrapper";
 import img from "../assets/images/images/img.png";
 import { TextSection } from "@/components/text-section/TextSection";
@@ -12,6 +12,8 @@ import Image from "next/image";
 import { NextPageWithLayout } from "@/pages/_app";
 import { Layout } from "@/components/layout/Layout";
 import Head from "next/head";
+import { GetStaticProps } from "next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 const LawkiKoscielne: NextPageWithLayout = () => {
   const [t] = useTranslation();
@@ -46,5 +48,11 @@ const LawkiKoscielne: NextPageWithLayout = () => {
 LawkiKoscielne.getLayout = function getLayout(page: ReactElement) {
   return <Layout>{page}</Layout>;
 };
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale ?? "pl")),
+  },
+});
 
 export default LawkiKoscielne;

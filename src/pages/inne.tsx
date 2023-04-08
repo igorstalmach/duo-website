@@ -10,6 +10,8 @@ import Image from "next/image";
 import { NextPageWithLayout } from "@/pages/_app";
 import { Layout } from "@/components/layout/Layout";
 import Head from "next/head";
+import { GetStaticProps } from "next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 const Inne: NextPageWithLayout = () => {
   const [t] = useTranslation();
@@ -43,5 +45,11 @@ const Inne: NextPageWithLayout = () => {
 Inne.getLayout = function getLayout(page: ReactElement) {
   return <Layout>{page}</Layout>;
 };
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale ?? "pl")),
+  },
+});
 
 export default Inne;
