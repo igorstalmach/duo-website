@@ -14,7 +14,13 @@ export const TextSection = (props: ITextSectionProps) => {
       >
         {props.header}
       </div>
-      {props.text && <div className={styles.text}>{props.text}</div>}
+      {props.text && (
+        <div className={styles.text}>
+          {props.text.split("\n").map((line, key) => (
+            <p key={key}>{line}</p>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import styles from "../styles/Home.module.scss";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 import img from "../assets/images/images/img.png";
 import img_1 from "../assets/images/images/img_1.png";
 import img_2 from "../assets/images/images/img_2.png";
@@ -11,6 +11,8 @@ import Image from "next/image";
 import { NextPageWithLayout } from "@/pages/_app";
 import { Layout } from "@/components/layout/Layout";
 import Head from "next/head";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import type { GetStaticProps } from "next";
 
 const Home: NextPageWithLayout = () => {
   const [t] = useTranslation();
@@ -50,5 +52,11 @@ const Home: NextPageWithLayout = () => {
 Home.getLayout = function getLayout(page: ReactElement) {
   return <Layout>{page}</Layout>;
 };
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale ?? "pl")),
+  },
+});
 
 export default Home;

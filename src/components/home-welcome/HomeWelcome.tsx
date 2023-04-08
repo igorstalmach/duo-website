@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HomeWelcome.module.scss";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 
 export const HomeWelcome = () => {
   const [t] = useTranslation();

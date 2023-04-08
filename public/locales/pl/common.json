@@ -9,7 +9,7 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
     },
     "secondSection": {
-      "header": "HEADER",
+      "header": "O NAS",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim."
     },
     "thirdSection": {
@@ -20,25 +20,26 @@
   "churchBenches": {
     "title": "ŁAWKI KOŚCIELNE",
     "firstSection": {
-      "header": "HEADER",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+      "header": "BEZPŁATNA WYCENA",
+      "text": "Zapewniamy bezpłatną wycenę tapicerowania ławek w kościołach na terenie całego kraju. To doskonała okazja, aby zapoznać się z próbnikami materiałów oraz przykładowymi pokryciami ławek, i wybrać najlepsze rozwiązanie dla każdego kościoła. Nasza wysoka jakość usług i zadowolenie klientów są dla nas najważniejsze. Skontaktuj się z nami, aby umówić się na wizytę i uzyskać bezpłatną wycenę."
     },
     "secondSection": {
-      "header": "HEADER",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim."
+      "header": "UNIKATOWA METODA",
+      "text": "Nasza firma opracowała innowacyjną, nieinwazyjną metodę tapicerowania ławek kościelnych. Rozwiązanie zapewnia trwałą i efektywną tapicerkę ławek, jednocześnie nie naruszając ich powierzchni. Nasza metoda wyróżnia się na tle innych sposobów dostępnych na rynku, ponieważ nie powoduje przesuwania się ani ściągania pokrycia z ławki podczas jej użytkowania. Oferujemy najlepsze rozwiązania, które spełnią oczekiwania i wymagania naszych klientów. Skontaktuj się z nami, aby dowiedzieć się więcej o naszej nieinwazyjnej metodzie tapicerowania ławek kościelnych."
     },
     "gallery": "GALERIA"
   },
   "furniture": {
     "title": "MEBLE",
     "firstSection": {
-      "header": "HEADER",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+      "header": "SZEROKA OFERTA TKANIN",
+      "text": "W naszej ofercie znajdziesz szeroki wybór tkanin i skór, dzięki czemu możemy zaproponować różnorodne style i wzory, które idealnie dopasują się do gustu i potrzeb klienta. Zapraszamy do kontaktu, aby dowiedzieć się więcej o naszej ofercie tapicerowania mebli."
     },
     "secondSection": {
-      "header": "HEADER",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim."
-    }
+      "header": "PROFESJONALNE USŁUGI TAPICERSKIE",
+      "text": "Oferujemy profesjonalne usługi tapicerskie dla antyków oraz mebli. Nasza firma specjalizuje się w renowacji i tapicerowaniu mebli, dostosowując się do indywidualnych wymagań naszych klientów. Zapewniamy konkurencyjne ceny i wysoką jakość usług, aby sprostać oczekiwaniom naszych klientów."
+    },
+    "gallery": "GALERIA"
   },
   "other": {
     "title": "INNE",
@@ -54,8 +55,21 @@
   "contact": {
     "title": "KONTAKT",
     "firstSection": {
-      "header": "HEADER",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+      "header": "SKONTAKTUJ SIĘ Z NAMI",
+      "title": "Pracownia Tapicerska \n firma „Duo” Beata Stalmach",
+      "text": "ul. Dworcowa 2 \n 44-238 Czerwionka-Leszczyny ",
+      "hours": {
+        "header": "Godziny otwarcia:",
+        "text": "poniedziałek – piątek: od 9:00 do 17:00 \n sobota: nieczynne"
+      }
     }
+  },
+  "navlinks": {
+    "home": "STRONA GŁÓWNA",
+    "churchBenches": "ŁAWKI KOŚCIELNE",
+    "furniture": "MEBLE",
+    "other": "INNE",
+    "contact": "KONTAKT",
+    "changeLocale": "PL/EN"
   }
 }

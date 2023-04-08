@@ -1,0 +1,69 @@
+{
+  "home": {
+    "hero": {
+      "title": "UPHOLSTERY WORKSHOP",
+      "subtitle": "\"Duo\" Company"
+    },
+    "firstSection": {
+      "header": "HEADER",
+      "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum."
+    },
+    "secondSection": {
+      "header": "HEADER",
+      "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum."
+    },
+    "thirdSection": {
+      "header": "HEADER",
+      "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+    }
+  },
+  "churchBenches": {
+    "title": "ŁAWKI KOŚCIELNE",
+    "firstSection": {
+      "header": "HEADER",
+      "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum."
+    },
+    "secondSection": {
+      "header": "HEADER",
+      "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum."
+    },
+    "gallery": "GALERIA"
+  },
+  "furniture": {
+    "title": "MEBLE",
+    "firstSection": {
+      "header": "HEADER",
+      "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum."
+    },
+    "secondSection": {
+      "header": "HEADER",
+      "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum."
+    }
+  },
+  "other": {
+    "title": "INNE",
+    "firstSection": {
+      "header": "HEADER",
+      "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum."
+    },
+    "secondSection": {
+      "header": "HEADER",
+      "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum."
+    }
+  },
+  "contact": {
+    "title": "KONTAKT",
+    "firstSection": {
+      "header": "HEADER",
+      "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum."
+    }
+  },
+  "navlinks": {
+    "home": "HOME",
+    "churchBenches": "CHURCH BENCHES",
+    "furniture": "FURNITURE",
+    "other": "OTHER",
+    "contact": "CONTACT",
+    "changeLocale": "PL/EN"
+  }
+}
