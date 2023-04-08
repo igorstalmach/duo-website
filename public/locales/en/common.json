@@ -57,5 +57,6 @@
       "header": "HEADER",
       "text": "Curabitur fringilla lacus felis, a aliquet nunc blandit non. Fusce laoreet enim id ante placerat euismod. Etiam quam metus, rutrum vel efficitur vel, porta eget turpis. Etiam rutrum id libero sit amet venenatis. Morbi ac faucibus magna, ac efficitur ipsum. Nulla tristique leo neque. Phasellus augue purus, eleifend id risus in, rhoncus gravida ex. Suspendisse ultrices, nunc nec venenatis pretium, nunc urna lobortis est, nec viverra turpis nibh tempor metus. Morbi ullamcorper mi et eros semper, vitae mattis augue consectetur. Duis et libero ipsum. Curabitur dapibus dolor egestas turpis condimentum interdum."
     }
-  }
+  },
+  "changeLocale": "PL/EN"
 }
