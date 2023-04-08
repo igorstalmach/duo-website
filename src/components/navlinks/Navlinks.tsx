@@ -27,41 +27,41 @@ export const Navlinks = (props: INavlinksProps) => {
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        STRONA GŁÓWNA
+        {t("navlinks.home")}
       </Link>
       <Link
         href={"/lawki-koscielne"}
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        ŁAWKI KOŚCIELNE
+        {t("navlinks.churchBenches")}
       </Link>
       <Link
         href={"/meble"}
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        MEBLE
+        {t("navlinks.furniture")}
       </Link>
       <Link
         href={"/inne"}
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        INNE
+        {t("navlinks.other")}
       </Link>
       <Link
         href={"/kontakt"}
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        KONTAKT
+        {t("navlinks.contact")}
       </Link>
       <button
         className={styles.link}
         onClick={() => onToggleLanguageClick(changeTo)}
       >
-        {t("changeLocale", { changeTo })}
+        {t("navlinks.changeLocale", { changeTo })}
       </button>
     </nav>
   );
