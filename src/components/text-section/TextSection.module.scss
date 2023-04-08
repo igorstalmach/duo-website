@@ -8,7 +8,7 @@
 
   .header {
     font-family: $roboto;
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: $lightRed;
     margin-bottom: 0.5rem;
@@ -25,9 +25,10 @@
   .text {
     font-family: $roboto;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 400;
     color: $lightFont;
     margin-bottom: 1.25rem;
+    line-height: 1.65rem;
 
     @include breakpoint-md {
       font-size: 1rem;
