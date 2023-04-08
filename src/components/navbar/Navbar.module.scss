@@ -11,7 +11,7 @@
   width: 100%;
   position: fixed;
   z-index: 10;
-  padding: 2rem 0 1rem 0;
+  padding: 0.8rem 0 0.5rem 0;
   background: $lightMenuBackground;
   transition-duration: 0.2s;
   transition-timing-function: cubic-bezier(0.38, 0.16, 0.57, 0.96);
@@ -57,12 +57,6 @@
       }
     }
   }
-}
-
-.smallContainer {
-  padding: 0.3rem 0;
-  transition-duration: 0.2s;
-  transition-timing-function: cubic-bezier(0.38, 0.16, 0.57, 0.96);
 }
 
 .linksHidden {
