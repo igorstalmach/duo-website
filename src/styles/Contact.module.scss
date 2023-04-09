@@ -1,9 +1,50 @@
+@import "../assets/styles/colors.module";
+@import "../assets/styles/fonts.module";
+@import "../assets/styles/breakpoints.module";
+
 .image {
   width: 100%;
   height: auto;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 10px;
   margin-bottom: 1.5rem;
+}
+
+.leftWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  grid-column: 2 / 7;
+
+  @include breakpoint-md {
+    grid-column: 2 / 12;
+    margin-bottom: 2rem;
+  }
+}
+
+.rightWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  grid-column: 8 / 12;
+
+  @include breakpoint-md {
+    grid-column: 2 / 12;
+    margin-bottom: 2rem;
+  }
+}
+
+.infoWrapper {
+  width: 100%;
+
+  @include breakpoint-md {
+    width: unset;
+    margin-top: 1rem;
+  }
 }
 
 .mapWrapper {

@@ -24,5 +24,6 @@
 
   @include breakpoint-md {
     grid-column: 2 / 12;
+    margin-bottom: 2rem;
   }
 }

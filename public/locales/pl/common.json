@@ -37,7 +37,7 @@
     },
     "secondSection": {
       "header": "PROFESJONALNE USŁUGI TAPICERSKIE",
-      "text": "Oferujemy profesjonalne usługi tapicerskie antyków oraz mebli współczesnych. Nasza firma specjalizuje się w renowacji i tapicerowaniu mebli, dostosowując się do indywidualnych wymagań naszych klientów. Zapewniamy konkurencyjne ceny i wysoką jakość usług, aby sprostać oczekiwaniom naszych klientów."
+      "text": "Oferujemy profesjonalne usługi tapicerskie antyków oraz mebli współczesnych. Nasza firma specjalizuje się w renowacji i tapicerowaniu mebli, dostosowując się do indywidualnych wymagań. Zapewniamy konkurencyjne ceny i wysoką jakość usług, aby sprostać oczekiwaniom naszych klientów."
     },
     "gallery": "GALERIA"
   },
@@ -54,14 +54,17 @@
   },
   "contact": {
     "title": "KONTAKT",
+    "header": "SKONTAKTUJ SIĘ Z NAMI",
     "firstSection": {
-      "header": "SKONTAKTUJ SIĘ Z NAMI",
-      "title": "Pracownia Tapicerska \n firma „Duo” Beata Stalmach",
-      "text": "ul. Dworcowa 2 \n 44-238 Czerwionka-Leszczyny ",
-      "hours": {
-        "header": "Godziny otwarcia:",
-        "text": "poniedziałek – piątek: od 9:00 do 17:00 \n sobota: nieczynne"
-      }
+      "title": "Pracownia Tapicerska \n Firma „Duo” Beata Stalmach"
+    },
+    "secondSection": {
+      "header": "Kontakt:",
+      "text": "ul. Dworcowa 2 \n 44-238 Czerwionka-Leszczyny"
+    },
+    "thirdSection": {
+      "header": "Godziny otwarcia:",
+      "text": "poniedziałek – piątek: od 9:00 do 17:00 \n sobota: nieczynne"
     }
   },
   "navlinks": {
