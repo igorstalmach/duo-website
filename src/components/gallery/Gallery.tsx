@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Gallery.module.scss";
 import { IGalleryProps } from "./IGalleryProps";
-import { TextSection } from "../text-section/TextSection";
 import { GalleryItem } from "./components/GalleryItem";
 import FsLightbox from "fslightbox-react";
 import Image from "next/image";
@@ -38,7 +37,6 @@ export const Gallery = (props: IGalleryProps) => {
 
   return (
     <div className={styles.container}>
-      <TextSection header={props.header} onRight={false} />
       <div className={styles.gallery}>{showGallery()}</div>
       <FsLightbox
         toggler={lightboxController.show}

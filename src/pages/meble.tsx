@@ -40,7 +40,7 @@ const Meble: NextPageWithLayout = () => {
         />
         <Image src={img} className={styles.image} alt={"Furniture"} />
       </SubpageSectionWrapper>
-      <Gallery src={furnitureGallery} header={t("furniture.gallery")} />
+      <Gallery src={furnitureGallery} />
     </>
   );
 };

@@ -3,9 +3,9 @@ import styles from "../styles/ChurchBenches.module.scss";
 import { SubpageHeader } from "@/components/subpage-header/SubpageHeader";
 import { useTranslation } from "next-i18next";
 import { SubpageSectionWrapper } from "@/components/subpage-section-wrapper/SubpageSectionWrapper";
-import img from "../assets/images/images/img.png";
+import img from "@/assets/images/churchBenches/image-70.jpeg";
+import img_1 from "@/assets/images/churchBenches/image-71.jpeg";
 import { TextSection } from "@/components/text-section/TextSection";
-import img_2 from "../assets/images/images/img_2.png";
 import { Gallery } from "@/components/gallery/Gallery";
 import { churchBenchGallery } from "@/common/data/churchBenchGallery";
 import Image from "next/image";
@@ -38,9 +38,9 @@ const LawkiKoscielne: NextPageWithLayout = () => {
           text={t("churchBenches.secondSection.text")}
           onRight={false}
         />
-        <Image src={img_2} className={styles.image} alt={"Furniture"} />
+        <Image src={img_1} className={styles.image} alt={"Furniture"} />
       </SubpageSectionWrapper>
-      <Gallery src={churchBenchGallery} header={t("churchBenches.gallery")} />
+      <Gallery src={churchBenchGallery} />
     </>
   );
 };
