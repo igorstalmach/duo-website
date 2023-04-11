@@ -7,8 +7,8 @@ export const HomeWelcome = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.title}>{t("home.hero.title")}</div>
-      <div className={styles.subtitle}>{t("home.hero.subtitle")}</div>
+      <h1 className={styles.title}>{t("home.hero.title")}</h1>
+      <h2 className={styles.subtitle}>{t("home.hero.subtitle")}</h2>
     </div>
   );
 };

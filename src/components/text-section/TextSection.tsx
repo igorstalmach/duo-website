@@ -6,20 +6,20 @@ import { joinClasses } from "@/common/utils/joinClasses";
 export const TextSection = (props: ITextSectionProps) => {
   return (
     <div className={styles.textSection}>
-      <div
+      <h3
         className={joinClasses(
           styles.header,
           props.onRight ? styles.alignRight : styles.alignLeft
         )}
       >
         {props.header}
-      </div>
+      </h3>
       {props.text && (
-        <div className={styles.text}>
+        <section className={styles.text}>
           {props.text.split("\n").map((line, key) => (
             <p key={key}>{line}</p>
           ))}
-        </div>
+        </section>
       )}
     </div>
   );

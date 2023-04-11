@@ -17,8 +17,8 @@ export const ContactInfo = () => {
     <div className={styles.container}>
       <div className={styles.title}>{translate("firstSection.title")}</div>
       <div className={styles.wrapper}>
-        <div className={styles.header}>{translate("secondSection.header")}</div>
-        <div className={styles.text}>{translate("secondSection.text")}</div>
+        <p className={styles.header}>{translate("secondSection.header")}</p>
+        <p className={styles.text}>{translate("secondSection.text")}</p>
         <div
           className={joinClasses(styles.text, styles.click)}
           onClick={() => (window.location.href = "tel:509225754")}

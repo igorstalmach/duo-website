@@ -6,17 +6,23 @@
   grid-column: 1 / 13;
   width: 100%;
   margin: 13rem 0 8rem 0;
-  text-align: center;
-  font-family: $abrilFatface;
-  font-size: 4.375rem;
-  font-weight: 400;
 
   .title {
     color: $lightFont;
+    text-align: center;
+    font-family: $abrilFatface;
+    font-size: 4.375rem;
+    font-weight: 400;
+    margin: 0;
   }
 
   .subtitle {
     color: $lightRed;
+    text-align: center;
+    font-family: $abrilFatface;
+    font-size: 4.375rem;
+    font-weight: 400;
+    margin: 0;
   }
 
   @include breakpoint-xl {
