@@ -5,51 +5,37 @@
       "subtitle": "Firma \"Duo\""
     },
     "firstSection": {
-      "header": "HEADER",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
-    },
-    "secondSection": {
       "header": "O NAS",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim."
-    },
-    "thirdSection": {
-      "header": "HEADER",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
+      "text": "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług związanych z tapicerowaniem różnego rodzaju mebli, w tym ławek kościelnych, antyków, mebli codziennego użytku oraz foteli specjalistycznych. Zapraszamy do zapoznania się z naszą ofertą w poszczególnych zakładkach."
     }
   },
   "churchBenches": {
     "title": "ŁAWKI KOŚCIELNE",
     "firstSection": {
       "header": "BEZPŁATNA WYCENA",
-      "text": "Zapewniamy bezpłatną wycenę tapicerowania ławek w kościołach na terenie całego kraju. To doskonała okazja, aby zapoznać się z próbnikami materiałów oraz przykładowymi pokryciami ławek, i wybrać najlepsze rozwiązanie dla każdego kościoła. Nasza wysoka jakość usług i zadowolenie klientów są dla nas najważniejsze. Skontaktuj się z nami, aby umówić się na wizytę i uzyskać bezpłatną wycenę."
+      "text": "Zapewniamy bezpłatną wycenę tapicerowania ławek w kościołach na terenie całego kraju. To doskonała okazja, aby zapoznać się z próbnikami materiałów oraz przykładowymi pokryciami ławek, i wybrać najlepsze rozwiązanie dla każdego kościoła. Skontaktuj się z nami, aby umówić się na wizytę i uzyskać bezpłatną wycenę."
     },
     "secondSection": {
       "header": "UNIKATOWA METODA",
-      "text": "Nasza firma opracowała innowacyjną, nieinwazyjną metodę tapicerowania ławek kościelnych. Rozwiązanie zapewnia trwałą i efektywną tapicerkę ławek, jednocześnie nie naruszając ich powierzchni. Nasza metoda wyróżnia się na tle innych sposobów dostępnych na rynku, ponieważ nie powoduje przesuwania się ani ściągania pokrycia z ławki podczas jej użytkowania. Oferujemy najlepsze rozwiązania, które spełnią oczekiwania i wymagania naszych klientów. Skontaktuj się z nami, aby dowiedzieć się więcej o naszej nieinwazyjnej metodzie tapicerowania ławek kościelnych."
-    },
-    "gallery": "GALERIA"
+      "text": "Nasza firma opracowała nieinwazyjną metodę tapicerowania ławek kościelnych. Rozwiązanie zapewnia trwałą i efektywną tapicerkę ławek, jednocześnie nie naruszając ich powierzchni. Nasza metoda wyróżnia się na tle innych sposobów dostępnych na rynku, ponieważ nie powoduje przesuwania się ani ściągania pokrycia z ławki podczas jej użytkowania. Oferujemy najlepsze rozwiązania, które spełnią oczekiwania i wymagania naszych klientów. Skontaktuj się z nami, aby dowiedzieć się więcej o tapicerowaniu ławek kościelnych."
+    }
   },
   "furniture": {
     "title": "MEBLE",
     "firstSection": {
       "header": "SZEROKA OFERTA TKANIN",
-      "text": "W naszej ofercie znajdziesz szeroki wybór tkanin i skór, dzięki czemu możemy zaproponować różnorodne style i wzory, które idealnie dopasują się do gustu i potrzeb klienta. Zapraszamy do kontaktu, aby dowiedzieć się więcej o naszej ofercie tapicerowania mebli."
+      "text": "W naszej ofercie znajdziesz szeroki wybór tkanin i skór, dzięki czemu możemy zaproponować różnorodne style i wzory, które idealnie dopasują się do potrzeb klienta."
     },
     "secondSection": {
-      "header": "PROFESJONALNE USŁUGI TAPICERSKIE",
-      "text": "Oferujemy profesjonalne usługi tapicerskie antyków oraz mebli współczesnych. Nasza firma specjalizuje się w renowacji i tapicerowaniu mebli, dostosowując się do indywidualnych wymagań. Zapewniamy konkurencyjne ceny i wysoką jakość usług, aby sprostać oczekiwaniom naszych klientów."
-    },
-    "gallery": "GALERIA"
+      "header": "RENOWACJA MEBLI",
+      "text": "Oferujemy usługi tapicerskie antyków oraz mebli współczesnych. Nasza firma specjalizuje się w renowacji i tapicerowaniu mebli, dostosowując się do indywidualnych wymagań klienta. Zapraszamy do kontaktu, aby dowiedzieć się więcej o naszej ofercie."
+    }
   },
   "other": {
     "title": "INNE",
     "firstSection": {
-      "header": "HEADER",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim. Vivamus sodales risus vel condimentum efficitur. Donec at varius nulla. Sed varius erat est, sit amet facilisis erat sagittis nec. Aenean consequat massa ligula, et iaculis urna fermentum nec. Morbi eget urna at dui dictum sagittis facilisis a diam."
-    },
-    "secondSection": {
-      "header": "HEADER",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie risus eget odio vulputate porttitor. Praesent venenatis id nulla eget pharetra. Sed euismod, dolor vitae tincidunt finibus, est justo gravida augue, non dictum dolor sem eget metus. Morbi ultrices aliquet aliquam. Duis massa nunc, venenatis sed facilisis eu, ultrices id arcu. Morbi rutrum tortor eu posuere tempus. Sed in tellus nibh. Fusce vel dictum quam. Nunc aliquet odio nec porta dignissim."
+      "header": "NIETYPOWE ZLECENIA",
+      "text": "Podejmujemy się usług tapicerskich przedmiotów wykraczających poza typowe meble codziennego użytku. Zajmujemy się m.in. tapicerowaniem zagłówków i foteli specjalistycznych, w tym foteli dentystycznych, optycznych, dializowych. Szyjemy również m.in. kurtyny i rekwizyty teatralne, a także sakwy do samochodów rajdowych. Skontaktuj się z nami, aby dowiedzieć się więcej."
     }
   },
   "contact": {

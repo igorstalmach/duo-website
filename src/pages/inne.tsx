@@ -26,16 +26,11 @@ const Inne: NextPageWithLayout = () => {
       <SubpageHeader header={t("other.title")} />
       <SubpageSectionWrapper onRight={false}>
         <Image src={img} className={styles.image} alt={"Furniture"} />
-        <TextSection
-          header={t("other.firstSection.header")}
-          text={t("other.firstSection.text")}
-          onRight={true}
-        />
       </SubpageSectionWrapper>
       <SubpageSectionWrapper onRight={true}>
         <TextSection
-          header={t("other.secondSection.header")}
-          text={t("other.secondSection.text")}
+          header={t("other.firstSection.header")}
+          text={t("other.firstSection.text")}
           onRight={false}
         />
         <Image src={img_1} className={styles.image} alt={"Furniture"} />
