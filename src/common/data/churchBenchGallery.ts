@@ -43,13 +43,13 @@ export const churchBenchGallery: IGalleryDataProps[] = [
     id: 1,
     src: img_17,
     url: "@/assets/images/churchBenches/image-17.jpeg",
-    alt: "Zdjęcie ławki kościelnej",
+    alt: "SacroExpo",
   },
   {
     id: 2,
     src: img_18,
     url: "@/assets/images/churchBenches/image-18.jpeg",
-    alt: "Zdjęcie ławki kościelnej",
+    alt: "Nasze stanowisko na SacroExpo",
   },
   {
     id: 3,
