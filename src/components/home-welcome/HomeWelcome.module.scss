@@ -7,38 +7,35 @@
   width: 100%;
   margin: 13rem 0 8rem 0;
 
-  .title {
-    color: $lightFont;
+  .text {
     text-align: center;
     font-family: $abrilFatface;
     font-size: 4.375rem;
     font-weight: 400;
     margin: 0;
+
+    @include breakpoint-xl {
+      font-size: 4rem;
+    }
+
+    @include breakpoint-md {
+      font-size: 3rem;
+    }
+
+    @include breakpoint-m {
+      font-size: 2.75rem;
+    }
+
+    @include breakpoint-s {
+      font-size: 2.25rem;
+    }
+  }
+
+  .title {
+    color: $lightFont;
   }
 
   .subtitle {
     color: $lightRed;
-    text-align: center;
-    font-family: $abrilFatface;
-    font-size: 4.375rem;
-    font-weight: 400;
-    margin: 0;
-  }
-
-  @include breakpoint-xl {
-    font-size: 4rem;
-  }
-
-  @include breakpoint-md {
-    font-size: 3rem;
-  }
-
-  @include breakpoint-m {
-    font-size: 2.5rem;
-    margin: 12rem 0 5rem 0;
-  }
-
-  @include breakpoint-s {
-    font-size: 2.25rem;
   }
 }

@@ -12,18 +12,28 @@ import { ContactInfo } from "@/components/contact-info/ContactInfo";
 
 const Kontakt: NextPageWithLayout = () => {
   const [t] = useTranslation();
+  const translate = (key: string): string => t(key);
 
   return (
     <>
       <Head>
-        <title>Kontakt - Tapicerstwo Stalmach</title>
+        <title>{t("contact.meta.title")}</title>
+        <meta
+          name="description"
+          content={translate("contact.meta.description")}
+        />
+        <meta property="og:title" content={translate("contact.meta.title")} />
+        <meta
+          property="og:description"
+          content={translate("contact.meta.description")}
+        />
       </Head>
       <SubpageHeader header={t("contact.title")} />
       <div className={styles.leftWrapper}>
         <div className={styles.mapWrapper}>
           <iframe
             width="100%"
-            height="350"
+            height="400"
             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Pracownia%20Tapicerska%20%22Duo%22,%20Dworcowa%202,%20Czerwionka-Leszczyny,%20Poland+(Pracownia%20Tapicerska%20%22Duo%22)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>

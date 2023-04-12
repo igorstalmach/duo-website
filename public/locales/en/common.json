@@ -7,9 +7,13 @@
     "firstSection": {
       "header": "ABOUT US",
       "text": "Our upholstery workshop, which has been in business since 1992, offers a wide range of upholstering services for various types of furniture, including church pews, antiques, everyday furniture and specialty chairs. We invite you to learn more about our offer in the various tabs."
+    },
+    "meta": {
+      "title": "Home - Upholstery Stalmach",
+      "description": "Our upholstery workshop, which has been in business since 1992, offers a wide range of upholstering services for various types of furniture, including church pews, antiques, everyday furniture and specialty chairs. Contact us to learn more."
     }
   },
-  "churchBenches": {
+  "churchPews": {
     "title": "CHURCH PEWS",
     "firstSection": {
       "header": "FREE QUOTE",
@@ -17,7 +21,11 @@
     },
     "secondSection": {
       "header": "UNIQUE METHOD",
-      "text": "Our company has developed a non-invasive method of upholstering church pews. The solution provides a durable and effective upholstery of pews while keeping the surface intact. Our method stands out from other methods available on the market because it does not cause the covering to move or pull off the pew during use. We offer the best solutions to meet the expectations and requirements of our customers. Contact us to learn more about upholstering church pews."
+      "text": "Our company has developed a non-invasive method of upholstering church pews. The solution provides a durable and effective upholstery of pews while keeping the surface intact. Our method stands out from other methods available on the market because it does not cause the covering to move or pull off the pew during use. Contact us to learn more about upholstering church pews."
+    },
+    "meta": {
+      "title": "Church Pews - Upholstery Stalmach",
+      "description": "Our company has developed a non-invasive method of upholstering church pews. The solution provides a durable and effective upholstery of pews while keeping the surface intact. Contact us to schedule an appointment and get a free quote."
     }
   },
   "furniture": {
@@ -29,6 +37,10 @@
     "secondSection": {
       "header": "FURNITURE RENOVATION",
       "text": "We offer upholstery services of antiques and contemporary furniture. Our company specializes in furniture renovation and upholstering, catering to individual customer requirements. Feel free to contact us to learn more about our offer."
+    },
+    "meta": {
+      "title": "Furniture - Upholstery Stalmach",
+      "description": "We offer upholstery services of antiques and contemporary furniture. Our company specializes in furniture renovation and upholstering, catering to individual customer requirements. Feel free to contact us to learn more about our offer."
     }
   },
   "other": {
@@ -36,6 +48,10 @@
     "firstSection": {
       "header": "UNUSUAL COMMISSIONS",
       "text": "We undertake upholstery services for items beyond typical everyday furniture. Among other things, we upholster headrests and specialty seats, including dental, optical, and dialysis chairs. We also sew curtains and theater props, as well as panniers for rally cars. Contact us to learn more."
+    },
+    "meta": {
+      "title": "Other - Upholstery Stalmach",
+      "description": "Among other things, we upholster headrests and specialty seats, including dental, optical, and dialysis chairs. We also sew curtains and theater props, as well as panniers for rally cars. Contact us to learn more."
     }
   },
   "contact": {
@@ -50,12 +66,16 @@
     },
     "thirdSection": {
       "header": "Opening hours:",
-      "text": "monday – friday: od 9:00 do 17:00 \n saturday: closed"
+      "text": "monday – friday: from 9am to 5pm \n saturday: closed"
+    },
+    "meta": {
+      "title": "Contact - Upholstery Stalmach",
+      "description": "Our upholstery workshop, which has been in business since 1992, offers a wide range of upholstering services for various types of furniture, including church pews, antiques, everyday furniture and specialty chairs. Contact us to learn more."
     }
   },
   "navlinks": {
     "home": "HOME",
-    "churchBenches": "CHURCH PEWS",
+    "churchPews": "CHURCH PEWS",
     "furniture": "FURNITURE",
     "other": "OTHER",
     "contact": "CONTACT",

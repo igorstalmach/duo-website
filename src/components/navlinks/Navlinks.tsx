@@ -28,7 +28,7 @@ export const Navlinks = (props: INavlinksProps) => {
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        {t("navlinks.churchBenches")}
+        {t("navlinks.churchPews")}
       </Link>
       <Link
         href={"/meble"}

@@ -17,19 +17,29 @@ import { furnitureGallery } from "@/common/data/furnitureGallery";
 
 const Meble: NextPageWithLayout = () => {
   const [t] = useTranslation();
+  const translate = (key: string): string => t(key);
 
   return (
     <>
       <Head>
-        <title>Meble - Tapicerstwo Stalmach</title>
+        <title>{t("furniture.meta.title")}</title>
+        <meta
+          name="description"
+          content={translate("furniture.meta.description")}
+        />
+        <meta property="og:title" content={translate("furniture.meta.title")} />
+        <meta
+          property="og:description"
+          content={translate("furniture.meta.description")}
+        />
       </Head>
       <SubpageHeader header={t("furniture.title")} />
       <SubpageSectionWrapper onRight={false}>
-        <Image src={img_1} className={styles.image} alt={"Furniture"} />
-        <TextSection
-          header={t("furniture.firstSection.header")}
-          text={t("furniture.firstSection.text")}
-          onRight={true}
+        <Image
+          src={img_1}
+          className={styles.image}
+          alt={"Furniture"}
+          priority={true}
         />
       </SubpageSectionWrapper>
       <SubpageSectionWrapper onRight={true}>
@@ -38,7 +48,17 @@ const Meble: NextPageWithLayout = () => {
           text={t("furniture.secondSection.text")}
           onRight={false}
         />
-        <Image src={img} className={styles.image} alt={"Furniture"} />
+        <Image
+          src={img}
+          className={styles.image}
+          alt={"Furniture"}
+          priority={true}
+        />
+        <TextSection
+          header={t("furniture.firstSection.header")}
+          text={t("furniture.firstSection.text")}
+          onRight={false}
+        />
       </SubpageSectionWrapper>
       <Gallery src={furnitureGallery} />
     </>

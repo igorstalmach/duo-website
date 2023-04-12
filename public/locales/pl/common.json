@@ -7,9 +7,13 @@
     "firstSection": {
       "header": "O NAS",
       "text": "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług związanych z tapicerowaniem różnego rodzaju mebli, w tym ławek kościelnych, antyków, mebli codziennego użytku oraz foteli specjalistycznych. Zapraszamy do zapoznania się z naszą ofertą w poszczególnych zakładkach."
+    },
+    "meta": {
+      "title": "Strona główna - Tapicerstwo Stalmach",
+      "description": "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług związanych z tapicerowaniem różnego rodzaju mebli, w tym ławek kościelnych, antyków, mebli codziennego użytku oraz foteli specjalistycznych. Skontaktuj się z nami, aby dowiedzieć się więcej."
     }
   },
-  "churchBenches": {
+  "churchPews": {
     "title": "ŁAWKI KOŚCIELNE",
     "firstSection": {
       "header": "BEZPŁATNA WYCENA",
@@ -17,7 +21,11 @@
     },
     "secondSection": {
       "header": "UNIKATOWA METODA",
-      "text": "Nasza firma opracowała nieinwazyjną metodę tapicerowania ławek kościelnych. Rozwiązanie zapewnia trwałą i efektywną tapicerkę ławek, jednocześnie nie naruszając ich powierzchni. Nasza metoda wyróżnia się na tle innych sposobów dostępnych na rynku, ponieważ nie powoduje przesuwania się ani ściągania pokrycia z ławki podczas jej użytkowania. Oferujemy najlepsze rozwiązania, które spełnią oczekiwania i wymagania naszych klientów. Skontaktuj się z nami, aby dowiedzieć się więcej o tapicerowaniu ławek kościelnych."
+      "text": "Nasza firma opracowała nieinwazyjną metodę tapicerowania ławek kościelnych. Rozwiązanie zapewnia trwałą i efektywną tapicerkę ławek, jednocześnie nie naruszając ich powierzchni. Nasza metoda wyróżnia się na tle innych sposobów dostępnych na rynku, ponieważ nie powoduje przesuwania się ani ściągania pokrycia z ławki podczas jej użytkowania. Skontaktuj się z nami, aby dowiedzieć się więcej o tapicerowaniu ławek kościelnych."
+    },
+    "meta": {
+      "title": "Ławki kościelne - Tapicerstwo Stalmach",
+      "description": "Nasza firma opracowała nieinwazyjną metodę tapicerowania ławek kościelnych. Rozwiązanie zapewnia trwałą i efektywną tapicerkę ławek, jednocześnie nie naruszając ich powierzchni. Skontaktuj się z nami, aby umówić się na wizytę i uzyskać bezpłatną wycenę."
     }
   },
   "furniture": {
@@ -29,6 +37,10 @@
     "secondSection": {
       "header": "RENOWACJA MEBLI",
       "text": "Oferujemy usługi tapicerskie antyków oraz mebli współczesnych. Nasza firma specjalizuje się w renowacji i tapicerowaniu mebli, dostosowując się do indywidualnych wymagań klienta. Zapraszamy do kontaktu, aby dowiedzieć się więcej o naszej ofercie."
+    },
+    "meta":{
+      "title": "Meble - Tapicerstwo Stalmach",
+      "description": "Oferujemy usługi tapicerskie antyków oraz mebli współczesnych. Nasza firma specjalizuje się w renowacji i tapicerowaniu mebli, dostosowując się do indywidualnych wymagań klienta. Zapraszamy do kontaktu, aby dowiedzieć się więcej o naszej ofercie."
     }
   },
   "other": {
@@ -36,6 +48,10 @@
     "firstSection": {
       "header": "NIETYPOWE ZLECENIA",
       "text": "Podejmujemy się usług tapicerskich przedmiotów wykraczających poza typowe meble codziennego użytku. Zajmujemy się m.in. tapicerowaniem zagłówków i foteli specjalistycznych, w tym foteli dentystycznych, optycznych, dializowych. Szyjemy również m.in. kurtyny i rekwizyty teatralne, a także sakwy do samochodów rajdowych. Skontaktuj się z nami, aby dowiedzieć się więcej."
+    },
+    "meta": {
+        "title": "Inne - Tapicerstwo Stalmach",
+        "description": "Zajmujemy się m.in. tapicerowaniem zagłówków i foteli specjalistycznych, w tym foteli dentystycznych, optycznych, dializowych. Szyjemy również m.in. kurtyny i rekwizyty teatralne, a także sakwy do samochodów rajdowych. Skontaktuj się z nami, aby dowiedzieć się więcej."
     }
   },
   "contact": {
@@ -51,11 +67,15 @@
     "thirdSection": {
       "header": "Godziny otwarcia:",
       "text": "poniedziałek – piątek: od 9:00 do 17:00 \n sobota: nieczynne"
+    },
+    "meta": {
+      "title": "Kontakt - Tapicerstwo Stalmach",
+      "description": "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług związanych z tapicerowaniem różnego rodzaju mebli, w tym ławek kościelnych, antyków, mebli codziennego użytku oraz foteli specjalistycznych. Skontaktuj się z nami, aby dowiedzieć się więcej."
     }
   },
   "navlinks": {
     "home": "STRONA GŁÓWNA",
-    "churchBenches": "ŁAWKI KOŚCIELNE",
+    "churchPews": "ŁAWKI KOŚCIELNE",
     "furniture": "MEBLE",
     "other": "INNE",
     "contact": "KONTAKT",

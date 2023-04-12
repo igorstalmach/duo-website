@@ -17,15 +17,30 @@ import { otherGallery } from "@/common/data/otherGallery";
 
 const Inne: NextPageWithLayout = () => {
   const [t] = useTranslation();
+  const translate = (key: string): string => t(key);
 
   return (
     <>
       <Head>
-        <title>Inne - Tapicerstwo Stalmach</title>
+        <title>{t("other.meta.title")}</title>
+        <meta
+          name="description"
+          content={translate("other.meta.description")}
+        />
+        <meta property="og:title" content={translate("other.meta.title")} />
+        <meta
+          property="og:description"
+          content={translate("other.meta.description")}
+        />
       </Head>
       <SubpageHeader header={t("other.title")} />
       <SubpageSectionWrapper onRight={false}>
-        <Image src={img} className={styles.image} alt={"Furniture"} />
+        <Image
+          src={img}
+          className={styles.image}
+          alt={"Furniture"}
+          priority={true}
+        />
       </SubpageSectionWrapper>
       <SubpageSectionWrapper onRight={true}>
         <TextSection
@@ -33,7 +48,12 @@ const Inne: NextPageWithLayout = () => {
           text={t("other.firstSection.text")}
           onRight={false}
         />
-        <Image src={img_1} className={styles.image} alt={"Furniture"} />
+        <Image
+          src={img_1}
+          className={styles.image}
+          alt={"Furniture"}
+          priority={true}
+        />
       </SubpageSectionWrapper>
       <Gallery src={otherGallery} />
     </>

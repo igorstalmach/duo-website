@@ -9,8 +9,12 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 6rem;
   gap: 1rem;
+
+  @include breakpoint-md {
+    margin-top: 2rem;
+  }
 
   .gallery {
     width: 100%;

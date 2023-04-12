@@ -2,7 +2,6 @@ import React, { ReactElement } from "react";
 import styles from "../styles/Home.module.scss";
 import { useTranslation } from "next-i18next";
 import { TextSection } from "@/components/text-section/TextSection";
-import { SubpageSectionWrapper } from "@/components/subpage-section-wrapper/SubpageSectionWrapper";
 import { HomeWelcome } from "@/components/home-welcome/HomeWelcome";
 import Image from "next/image";
 import { NextPageWithLayout } from "@/pages/_app";
@@ -14,23 +13,33 @@ import img from "@/assets/images/home/image-74.jpeg";
 
 const Home: NextPageWithLayout = () => {
   const [t] = useTranslation();
+  const translate = (key: string): string => t(key);
 
   return (
     <>
       <Head>
-        <title>Tapicerstwo Stalmach</title>
+        <title>{t("home.meta.title")}</title>
+        <meta name="description" content={translate("home.meta.description")} />
+        <meta property="og:title" content={translate("home.meta.title")} />
+        <meta
+          property="og:description"
+          content={translate("home.meta.description")}
+        />
       </Head>
       <HomeWelcome />
-      <SubpageSectionWrapper onRight={false}>
-        <Image src={img} className={styles.image} alt={"Furniture"} />
-      </SubpageSectionWrapper>
-      <SubpageSectionWrapper onRight={true}>
+      <div className={styles.wrapper}>
         <TextSection
           header={t("home.firstSection.header")}
           text={t("home.firstSection.text")}
           onRight={false}
         />
-      </SubpageSectionWrapper>
+        <Image
+          src={img}
+          className={styles.image}
+          alt={"Furniture"}
+          priority={true}
+        />
+      </div>
     </>
   );
 };
