@@ -40,6 +40,7 @@ const Inne: NextPageWithLayout = () => {
           className={styles.image}
           alt={"Furniture"}
           priority={true}
+          sizes={"(max-width: 768px) 100vw, 50vw"}
         />
       </SubpageSectionWrapper>
       <SubpageSectionWrapper onRight={true}>
@@ -53,6 +54,7 @@ const Inne: NextPageWithLayout = () => {
           className={styles.image}
           alt={"Furniture"}
           priority={true}
+          sizes={"(max-width: 768px) 100vw, 50vw"}
         />
       </SubpageSectionWrapper>
       <Gallery src={otherGallery} />

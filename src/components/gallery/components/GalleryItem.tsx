@@ -7,7 +7,12 @@ import Image from "next/image";
 export const GalleryItem = (props: IGalleryItemProps) => {
   return (
     <div className={styles.container} onClick={props.changeSlide}>
-      <Image src={props.src} alt={props.alt} className={styles.image} />
+      <Image
+        src={props.src}
+        alt={props.alt}
+        className={styles.image}
+        sizes={"20vw"}
+      />
       <div className={styles.iconContainer}>
         <IconPlus />
       </div>

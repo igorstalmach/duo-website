@@ -43,6 +43,7 @@ const LawkiKoscielne: NextPageWithLayout = () => {
           className={styles.image}
           alt={"Furniture"}
           priority={true}
+          sizes={"(max-width: 768px) 100vw, 50vw"}
         />
         <TextSection
           header={t("churchPews.firstSection.header")}
@@ -61,6 +62,7 @@ const LawkiKoscielne: NextPageWithLayout = () => {
           className={styles.image}
           alt={"Furniture"}
           priority={true}
+          sizes={"(max-width: 768px) 100vw, 50vw"}
         />
       </SubpageSectionWrapper>
       <Gallery src={churchPewsGallery} />
