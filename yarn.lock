@@ -14,11 +14,6 @@
   resolved "https://registry.yarnpkg.com/@fontsource/abril-fatface/-/abril-fatface-4.5.9.tgz#a8e523d882e75fdd212275d5dd16b95493b7b87c"
   integrity sha512-3q40X94isRtSFWFCaFtKW0nkYzmymVsqomiUTPGQuvlCq1A+RzT+39qtKWtuyJANOU5WhY/gI7ayszB5kYkupA==
 
-"@fontsource/roboto@^4.5.8":
-  version "4.5.8"
-  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.5.8.tgz#56347764786079838faf43f0eeda22dd7328437f"
-  integrity sha512-CnD7zLItIzt86q4Sj3kZUiLcBk1dSk81qcqgMGaZe7SQ1P8hFNxhMl5AZthK1zrDM5m74VVhaOpuMGIL4gagaA==
-
 "@next/env@13.3.0":
   version "13.3.0"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.3.0.tgz#cc2e49f03060a4684ce7ec7fd617a21bc5b9edba"
