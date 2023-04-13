@@ -1,6 +1,7 @@
 @import "../../assets/styles/colors.module";
 @import "../../assets/styles/fonts.module";
 @import "../../assets/styles/breakpoints.module";
+@import "@fontsource/abril-fatface";
 
 .container {
   grid-column: 1 / 13;
@@ -8,7 +9,7 @@
   margin: 13rem 0 7rem 0;
   text-align: center;
   color: $lightFont;
-  font-family: $abrilFatface;
+  font-family: "Abril Fatface", serif;
   font-size: 4.375rem;
   font-weight: 400;
 
