@@ -1,10 +1,10 @@
 @import "../../assets/styles/colors.module";
-@import "../../assets/styles/fonts.module";
 @import "../../assets/styles/breakpoints.module";
+@import "@fontsource/roboto";
 
 .link {
   all: unset;
-  font-family: $roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   color: $lightFont;

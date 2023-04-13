@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource/abril-fatface": "^4.5.9",
+    "@fontsource/roboto": "^4.5.8",
     "@types/fslightbox-react": "^1.7.1",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
