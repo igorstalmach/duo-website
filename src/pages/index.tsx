@@ -30,7 +30,7 @@ const Home: NextPageWithLayout = () => {
           }
         />
       </Head>
-      <HomeWelcome />
+      <HomeWelcome title={"PRACOWNIA TAPICERSKA"} subtitle={'Firma "Duo"'} />
       <div className={styles.wrapper}>
         <TextSection
           header={"O NAS"}
