@@ -1,7 +1,7 @@
 @import "../../assets/styles/colors.module";
 @import "../../assets/styles/breakpoints.module";
 @import "@fontsource/roboto/400.css";
-@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
 
 .textSection {
   width: 100%;
@@ -10,7 +10,7 @@
   .header {
     font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 700;
     color: $lightRed;
     margin: 0 0 0.5rem 0;
 
