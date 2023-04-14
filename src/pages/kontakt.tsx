@@ -1,34 +1,32 @@
 import React, { ReactElement } from "react";
 import styles from "../styles/Contact.module.scss";
 import { SubpageHeader } from "@/components/subpage-header/SubpageHeader";
-import { useTranslation } from "next-i18next";
 import { TextSection } from "@/components/text-section/TextSection";
 import { NextPageWithLayout } from "@/pages/_app";
 import { Layout } from "@/components/layout/Layout";
 import Head from "next/head";
-import { GetStaticProps } from "next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { ContactInfo } from "@/components/contact-info/ContactInfo";
 
 const Kontakt: NextPageWithLayout = () => {
-  const [t] = useTranslation();
-  const translate = (key: string): string => t(key);
-
   return (
     <>
       <Head>
-        <title>{t("contact.meta.title")}</title>
+        <title>Kontakt - Tapicerstwo Stalmach</title>
         <meta
           name="description"
-          content={translate("contact.meta.description")}
+          content={
+            "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług związanych z tapicerowaniem różnego rodzaju mebli, w tym ławek kościelnych, antyków, mebli codziennego użytku oraz foteli specjalistycznych. Skontaktuj się z nami, aby dowiedzieć się więcej."
+          }
         />
-        <meta property="og:title" content={translate("contact.meta.title")} />
+        <meta property="og:title" content={"Kontakt - Tapicerstwo Stalmach"} />
         <meta
           property="og:description"
-          content={translate("contact.meta.description")}
+          content={
+            "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług związanych z tapicerowaniem różnego rodzaju mebli, w tym ławek kościelnych, antyków, mebli codziennego użytku oraz foteli specjalistycznych. Skontaktuj się z nami, aby dowiedzieć się więcej."
+          }
         />
       </Head>
-      <SubpageHeader header={t("contact.title")} />
+      <SubpageHeader header={"KONTAKT"} />
       <div className={styles.leftWrapper}>
         <div className={styles.mapWrapper}>
           <iframe
@@ -40,7 +38,7 @@ const Kontakt: NextPageWithLayout = () => {
       </div>
       <div className={styles.rightWrapper}>
         <div className={styles.infoWrapper}>
-          <TextSection header={t("contact.header")} onRight={false} />
+          <TextSection header={"SKONTAKTUJ SIĘ Z NAMI"} onRight={false} />
           <ContactInfo />
         </div>
       </div>
@@ -51,11 +49,5 @@ const Kontakt: NextPageWithLayout = () => {
 Kontakt.getLayout = function getLayout(page: ReactElement) {
   return <Layout>{page}</Layout>;
 };
-
-export const getStaticProps: GetStaticProps = async ({ locale }) => ({
-  props: {
-    ...(await serverSideTranslations(locale ?? "pl")),
-  },
-});
 
 export default Kontakt;

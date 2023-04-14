@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.scss";
 import { Navlinks } from "../navlinks/Navlinks";
-import { ChangeLocaleButton } from "@/components/change-locale-button/ChangeLocaleButton";
+import { joinClasses } from "@/common/utils/joinClasses";
 
 export const Footer = () => {
   return (
@@ -12,16 +12,13 @@ export const Footer = () => {
         </div>
         <div className={styles.info}>
           <p
-            className={styles.click}
+            className={joinClasses(styles.click, styles.text)}
             onClick={() => (window.location.href = "tel:509225754")}
           >
             +48 509 225 754
           </p>
-          <div className={styles.localeButton}>
-            <ChangeLocaleButton />
-          </div>
           <p
-            className={styles.click}
+            className={joinClasses(styles.click, styles.text)}
             onClick={() =>
               (window.location.href = "mailto:tapicerstwostalmach@gmail.com")
             }

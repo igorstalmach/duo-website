@@ -2,12 +2,8 @@ import React from "react";
 import styles from "./Navlinks.module.scss";
 import Link from "next/link";
 import { INavlinksProps } from "./INavlinksProps";
-import { useTranslation } from "next-i18next";
-import { ChangeLocaleButton } from "@/components/change-locale-button/ChangeLocaleButton";
 
 export const Navlinks = (props: INavlinksProps) => {
-  const [t] = useTranslation();
-
   return (
     <nav
       className={
@@ -21,37 +17,36 @@ export const Navlinks = (props: INavlinksProps) => {
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        {t("navlinks.home")}
+        STRONA GŁÓWNA
       </Link>
       <Link
         href={"/lawki-koscielne"}
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        {t("navlinks.churchPews")}
+        ŁAWKI KOŚCIELNE
       </Link>
       <Link
         href={"/meble"}
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        {t("navlinks.furniture")}
+        MEBLE
       </Link>
       <Link
         href={"/inne"}
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        {t("navlinks.other")}
+        INNE
       </Link>
       <Link
         href={"/kontakt"}
         className={styles.link}
         onClick={() => window.scrollTo(0, 0)}
       >
-        {t("navlinks.contact")}
+        KONTAKT
       </Link>
-      <ChangeLocaleButton />
     </nav>
   );
 };
