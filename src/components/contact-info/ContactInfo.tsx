@@ -1,24 +1,24 @@
 import React from "react";
 import styles from "./ContactInfo.module.scss";
-import { useTranslation } from "next-i18next";
 import { joinClasses } from "@/common/utils/joinClasses";
 import { PhoneLogo } from "@/assets/icons/PhoneLogo";
 import { MailLogo } from "@/assets/icons/MailLogo";
 
 export const ContactInfo = () => {
-  const [t] = useTranslation();
-  const translate = (key: string) => {
-    return t(`contact.${key}`)
-      .split("\n")
-      .map((line, key) => <p key={key}>{line}</p>);
+  const splitLines = (key: string) => {
+    return key.split("\n").map((line, key) => <p key={key}>{line}</p>);
   };
 
   return (
     <div className={styles.container}>
-      <div className={styles.title}>{translate("firstSection.title")}</div>
+      <div className={styles.title}>
+        {splitLines("Pracownia Tapicerska \n Firma „Duo” Beata Stalmach")}
+      </div>
       <div className={styles.wrapper}>
-        <div className={styles.header}>{translate("secondSection.header")}</div>
-        <div className={styles.text}>{translate("secondSection.text")}</div>
+        <div className={styles.header}>{"Kontakt:"}</div>
+        <div className={styles.text}>
+          {splitLines("ul. Dworcowa 2 \n 44-238 Czerwionka-Leszczyny")}
+        </div>
         <div
           className={joinClasses(styles.text, styles.click)}
           onClick={() => (window.location.href = "tel:509225754")}
@@ -50,8 +50,12 @@ export const ContactInfo = () => {
         </div>
       </div>
       <div className={styles.wrapper}>
-        <div className={styles.header}>{translate("thirdSection.header")}</div>
-        <div className={styles.text}>{translate("thirdSection.text")}</div>
+        <div className={styles.header}>{"Godziny otwarcia:"}</div>
+        <div className={styles.text}>
+          {splitLines(
+            "poniedziałek – piątek: od 9:00 do 17:00 \n sobota: nieczynne"
+          )}
+        </div>
       </div>
     </div>
   );

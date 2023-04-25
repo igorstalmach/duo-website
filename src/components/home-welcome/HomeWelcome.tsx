@@ -1,18 +1,14 @@
 import React from "react";
 import styles from "./HomeWelcome.module.scss";
-import { useTranslation } from "next-i18next";
 import { joinClasses } from "@/common/utils/joinClasses";
+import { IHomeWelcomeProps } from "@/components/home-welcome/IHomeWelcomeProps";
 
-export const HomeWelcome = () => {
-  const [t] = useTranslation();
-
+export const HomeWelcome = (props: IHomeWelcomeProps) => {
   return (
     <div className={styles.container}>
-      <h1 className={joinClasses(styles.text, styles.title)}>
-        {t("home.hero.title")}
-      </h1>
+      <h1 className={joinClasses(styles.text, styles.title)}>{props.title}</h1>
       <h2 className={joinClasses(styles.text, styles.subtitle)}>
-        {t("home.hero.subtitle")}
+        {props.subtitle}
       </h2>
     </div>
   );

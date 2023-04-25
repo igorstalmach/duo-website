@@ -1,6 +1,6 @@
 @import "../../assets/styles/colors.module";
 @import "../../assets/styles/breakpoints.module";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import "@fontsource/roboto/700.css";
 
 .container {
   display: grid;
@@ -32,14 +32,6 @@
       justify-content: space-between;
       align-items: center;
       gap: 3rem;
-      font-family: "Roboto", sans-serif;
-      font-weight: 700;
-      font-size: 1.25rem;
-      color: $lightFont;
-
-      @include breakpoint-lg {
-        font-size: 1rem;
-      }
 
       @include breakpoint-sm {
         flex-direction: column;
@@ -50,17 +42,20 @@
         font-size: 0.9rem;
       }
 
+      .text {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+        color: $lightFont;
+
+        @include breakpoint-lg {
+          font-size: 1rem;
+        }
+      }
+
       .click:hover {
         cursor: pointer;
         opacity: 0.7;
-      }
-
-      .localeButton {
-        display: none;
-
-        @include breakpoint-sm {
-          display: block;
-        }
       }
     }
 

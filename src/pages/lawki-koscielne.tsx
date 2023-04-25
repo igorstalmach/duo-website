@@ -1,7 +1,6 @@
 import React, { ReactElement } from "react";
 import styles from "../styles/churchPews.module.scss";
 import { SubpageHeader } from "@/components/subpage-header/SubpageHeader";
-import { useTranslation } from "next-i18next";
 import { SubpageSectionWrapper } from "@/components/subpage-section-wrapper/SubpageSectionWrapper";
 import img from "@/assets/images/churchPews/image-70.jpeg";
 import img_1 from "@/assets/images/churchPews/image-71.jpeg";
@@ -12,55 +11,58 @@ import Image from "next/image";
 import { NextPageWithLayout } from "@/pages/_app";
 import { Layout } from "@/components/layout/Layout";
 import Head from "next/head";
-import { GetStaticProps } from "next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 const LawkiKoscielne: NextPageWithLayout = () => {
-  const [t] = useTranslation();
-  const translate = (key: string): string => t(key);
-
   return (
     <>
       <Head>
-        <title>{t("churchPews.meta.title")}</title>
+        <title>Ławki kościelne - Tapicerstwo Stalmach</title>
         <meta
           name="description"
-          content={translate("churchPews.meta.description")}
+          content={
+            "Nasza firma opracowała nieinwazyjną metodę tapicerowania ławek kościelnych. Rozwiązanie zapewnia trwałą i efektywną tapicerkę ławek, jednocześnie nie naruszając ich powierzchni. Skontaktuj się z nami, aby umówić się na wizytę i uzyskać bezpłatną wycenę."
+          }
         />
         <meta
           property="og:title"
-          content={translate("churchPews.meta.title")}
+          content={"Ławki kościelne - Tapicerstwo Stalmach"}
         />
         <meta
           property="og:description"
-          content={translate("churchPews.meta.description")}
+          content={
+            "Nasza firma opracowała nieinwazyjną metodę tapicerowania ławek kościelnych. Rozwiązanie zapewnia trwałą i efektywną tapicerkę ławek, jednocześnie nie naruszając ich powierzchni. Skontaktuj się z nami, aby umówić się na wizytę i uzyskać bezpłatną wycenę."
+          }
         />
       </Head>
-      <SubpageHeader header={t("churchPews.title")} />
+      <SubpageHeader header={"ŁAWKI KOŚCIELNE"} />
       <SubpageSectionWrapper onRight={false}>
         <Image
           src={img}
           className={styles.image}
-          alt={"Furniture"}
+          alt={"Zdjęcie ławek kościelnych"}
           priority={true}
           sizes={"(max-width: 768px) 100vw, 50vw"}
         />
         <TextSection
-          header={t("churchPews.firstSection.header")}
-          text={t("churchPews.firstSection.text")}
+          header={"BEZPŁATNA WYCENA"}
+          text={
+            "Zapewniamy bezpłatną wycenę tapicerowania ławek w kościołach na terenie całego kraju. To doskonała okazja, aby zapoznać się z próbnikami materiałów oraz przykładowymi pokryciami ławek, i wybrać najlepsze rozwiązanie dla każdego kościoła. Skontaktuj się z nami, aby umówić się na wizytę i uzyskać bezpłatną wycenę."
+          }
           onRight={true}
         />
       </SubpageSectionWrapper>
       <SubpageSectionWrapper onRight={true}>
         <TextSection
-          header={t("churchPews.secondSection.header")}
-          text={t("churchPews.secondSection.text")}
+          header={"UNIKATOWA METODA"}
+          text={
+            "Nasza firma opracowała nieinwazyjną metodę tapicerowania ławek kościelnych. Rozwiązanie zapewnia trwałą i efektywną tapicerkę ławek, jednocześnie nie naruszając ich powierzchni. Nasza metoda wyróżnia się na tle innych sposobów dostępnych na rynku, ponieważ nie powoduje przesuwania się ani ściągania pokrycia z ławki podczas jej użytkowania. Skontaktuj się z nami, aby dowiedzieć się więcej o tapicerowaniu ławek kościelnych."
+          }
           onRight={false}
         />
         <Image
           src={img_1}
           className={styles.image}
-          alt={"Furniture"}
+          alt={"Zdjęcie ławki kościelnej"}
           priority={true}
           sizes={"(max-width: 768px) 100vw, 50vw"}
         />
@@ -73,11 +75,5 @@ const LawkiKoscielne: NextPageWithLayout = () => {
 LawkiKoscielne.getLayout = function getLayout(page: ReactElement) {
   return <Layout>{page}</Layout>;
 };
-
-export const getStaticProps: GetStaticProps = async ({ locale }) => ({
-  props: {
-    ...(await serverSideTranslations(locale ?? "pl")),
-  },
-});
 
 export default LawkiKoscielne;
