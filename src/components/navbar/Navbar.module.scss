@@ -15,6 +15,11 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(5px);
 
+  @include breakpoint-lg {
+    height: 5rem;
+    transition: all 0.1s ease-in-out;
+  }
+
   .wrapper {
     grid-column: 2 / 12;
     display: flex;
@@ -66,7 +71,15 @@
 
 .linksHidden {
   @include breakpoint-lg {
-    display: none;
-    height: 0;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.linksVisible {
+  @include breakpoint-lg {
+    transition: opacity 0.2s ease-in-out;
+    visibility: visible;
+    opacity: 1;
   }
 }

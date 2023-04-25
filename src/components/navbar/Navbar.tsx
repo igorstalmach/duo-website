@@ -33,7 +33,9 @@ export const Navbar = () => {
             {!menuState && <IconMenuClosed width={28} height={28} />}
             {menuState && <IconMenuOpen width={28} height={28} />}
           </div>
-          <div className={!menuState ? styles.linksHidden : undefined}>
+          <div
+            className={!menuState ? styles.linksHidden : styles.linksVisible}
+          >
             <Navlinks
               toHamburgerMenu={true}
               closeHamburgerMenu={setMenuState}
