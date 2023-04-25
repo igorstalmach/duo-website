@@ -10,6 +10,11 @@ import { joinClasses } from "@/common/utils/joinClasses";
 export const Navbar = () => {
   const [menuState, setMenuState] = useState<boolean>(false);
 
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+    setMenuState(false);
+  };
+
   return (
     <div
       className={joinClasses(
@@ -19,7 +24,7 @@ export const Navbar = () => {
     >
       <div className={styles.wrapper}>
         <div className={styles.logoContainer}>
-          <Link href={"/"}>
+          <Link href={"/"} onClick={handleClick}>
             <IconLogo width={127} height={73} />
           </Link>
         </div>
