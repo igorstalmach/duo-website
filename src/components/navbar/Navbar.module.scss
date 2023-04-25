@@ -28,6 +28,7 @@
     @include breakpoint-lg {
       grid-column: 2 / 12;
       align-items: flex-start;
+      height: unset;
     }
 
     .logoContainer:hover {
@@ -42,6 +43,7 @@
         display: flex;
         align-items: center;
         height: 100%;
+        margin-top: 1.5rem;
       }
     }
 
@@ -52,9 +54,15 @@
       gap: 1rem;
 
       @include breakpoint-lg {
-        height: 100%;
+        gap: 4rem;
       }
     }
+  }
+}
+
+.containerHeight {
+  @include breakpoint-lg {
+    height: 100%;
   }
 }
 

@@ -5,12 +5,18 @@ import { IconMenuClosed } from "@/assets/icons/IconMenuClosed";
 import { IconMenuOpen } from "@/assets/icons/IconMenuOpen";
 import { Navlinks } from "../navlinks/Navlinks";
 import Link from "next/link";
+import { joinClasses } from "@/common/utils/joinClasses";
 
 export const Navbar = () => {
   const [menuState, setMenuState] = useState<boolean>(false);
 
   return (
-    <div className={styles.container}>
+    <div
+      className={joinClasses(
+        styles.container,
+        menuState ? styles.containerHeight : ""
+      )}
+    >
       <div className={styles.wrapper}>
         <div className={styles.logoContainer}>
           <Link href={"/"}>
