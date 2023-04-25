@@ -23,7 +23,10 @@ export const Navbar = () => {
             {menuState && <IconMenuOpen width={28} height={28} />}
           </div>
           <div className={!menuState ? styles.linksHidden : undefined}>
-            <Navlinks toHamburgerMenu={true} />
+            <Navlinks
+              toHamburgerMenu={true}
+              closeHamburgerMenu={setMenuState}
+            />
           </div>
         </div>
       </div>
