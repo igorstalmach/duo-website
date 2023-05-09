@@ -25,7 +25,10 @@ const Kontakt: NextPageWithLayout = () => {
             "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług związanych z tapicerowaniem różnego rodzaju mebli, w tym ławek kościelnych, antyków, mebli codziennego użytku oraz foteli specjalistycznych. Skontaktuj się z nami, aby dowiedzieć się więcej."
           }
         />
-        <link rel="canonical" href="https://tapicerstwo-stalmach.pl/kontakt/" />
+        <link
+          rel="canonical"
+          href="https://www.tapicerstwo-stalmach.pl/kontakt/"
+        />
       </Head>
       <SubpageHeader header={"KONTAKT"} />
       <div className={styles.leftWrapper}>

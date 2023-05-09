@@ -30,7 +30,10 @@ const Meble: NextPageWithLayout = () => {
             "Oferujemy usługi tapicerskie antyków oraz mebli współczesnych. Nasza firma specjalizuje się w renowacji i tapicerowaniu mebli, dostosowując się do indywidualnych wymagań klienta. Zapraszamy do kontaktu, aby dowiedzieć się więcej o naszej ofercie."
           }
         />
-        <link rel="canonical" href="https://tapicerstwo-stalmach.pl/meble/" />
+        <link
+          rel="canonical"
+          href="https://www.tapicerstwo-stalmach.pl/meble/"
+        />
       </Head>
       <SubpageHeader header={"MEBLE"} />
       <SubpageSectionWrapper onRight={false}>

@@ -35,7 +35,7 @@ const LawkiKoscielne: NextPageWithLayout = () => {
         />
         <link
           rel="canonical"
-          href="https://tapicerstwo-stalmach.pl/lawki-koscielne/"
+          href="https://www.tapicerstwo-stalmach.pl/lawki-koscielne/"
         />
       </Head>
       <SubpageHeader header={"ŁAWKI KOŚCIELNE"} />
