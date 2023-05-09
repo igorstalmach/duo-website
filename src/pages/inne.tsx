@@ -30,6 +30,7 @@ const Inne: NextPageWithLayout = () => {
             "Zajmujemy się m.in. tapicerowaniem zagłówków i foteli specjalistycznych, w tym foteli dentystycznych, optycznych, dializowych. Szyjemy również m.in. kurtyny i rekwizyty teatralne, a także sakwy do samochodów rajdowych. Skontaktuj się z nami, aby dowiedzieć się więcej."
           }
         />
+        <link rel="canonical" href="https://tapicerstwo-stalmach.pl/inne/" />
       </Head>
       <SubpageHeader header={"INNE"} />
       <SubpageSectionWrapper onRight={false}>

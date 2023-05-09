@@ -73,6 +73,7 @@
   @include breakpoint-lg {
     visibility: hidden;
     opacity: 0;
+    height: 0;
   }
 }
 

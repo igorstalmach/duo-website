@@ -33,6 +33,10 @@ const LawkiKoscielne: NextPageWithLayout = () => {
             "Nasza firma opracowała nieinwazyjną metodę tapicerowania ławek kościelnych. Rozwiązanie zapewnia trwałą i efektywną tapicerkę ławek, jednocześnie nie naruszając ich powierzchni. Skontaktuj się z nami, aby umówić się na wizytę i uzyskać bezpłatną wycenę."
           }
         />
+        <link
+          rel="canonical"
+          href="https://tapicerstwo-stalmach.pl/lawki-koscielne/"
+        />
       </Head>
       <SubpageHeader header={"ŁAWKI KOŚCIELNE"} />
       <SubpageSectionWrapper onRight={false}>
