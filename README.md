@@ -2,17 +2,11 @@
 A website I designed, developed, hosted and am currently maintaining for my parents' upholstery business.
 
 - [About](#about)
+- [Technologies](#technologies)
 - [Screenshots](#screenshots)
 - [Special thanks](#special-thanks)
 
 ## About
-
-> Technologies used:
-> - Next.js
-> - React
-> - TypeScript
-> - Sass
-> - Fslightbox-react
 
 The project is:
 - hosted on 
@@ -23,6 +17,14 @@ The project is:
 - using Fontsource for best performance [^2].
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Technologies
+
+- Next.js
+- React
+- TypeScript
+- Sass
+- Fslightbox-react
 
 ## Screenshots
 
