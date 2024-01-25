@@ -15,14 +15,14 @@ const Kontakt: NextPageWithLayout = () => {
         <meta
           name="description"
           content={
-            "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług związanych z tapicerowaniem różnego rodzaju mebli, w tym ławek kościelnych, antyków, mebli codziennego użytku oraz foteli specjalistycznych. Skontaktuj się z nami, aby dowiedzieć się więcej."
+            "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług tapicerskich związanych z tapicerowaniem różnego rodzaju mebli, w tym tapicerki ławek kościelnych, renowacji antyków, tapicerowaniu mebli codziennego użytku oraz foteli specjalistycznych. Skontaktuj się z nami, aby dowiedzieć się więcej."
           }
         />
         <meta property="og:title" content={"Kontakt - Tapicerstwo Stalmach"} />
         <meta
           property="og:description"
           content={
-            "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług związanych z tapicerowaniem różnego rodzaju mebli, w tym ławek kościelnych, antyków, mebli codziennego użytku oraz foteli specjalistycznych. Skontaktuj się z nami, aby dowiedzieć się więcej."
+            "Nasza pracownia tapicerska, działająca od 1992 roku, oferuje szeroki zakres usług tapicerskich związanych z tapicerowaniem różnego rodzaju mebli, w tym tapicerki ławek kościelnych, renowacji antyków, tapicerowaniu mebli codziennego użytku oraz foteli specjalistycznych. Skontaktuj się z nami, aby dowiedzieć się więcej."
           }
         />
         <link

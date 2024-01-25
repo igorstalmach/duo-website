@@ -24,7 +24,7 @@ export const Navbar = () => {
     >
       <div className={styles.wrapper}>
         <div className={styles.logoContainer}>
-          <Link href={"/"} onClick={handleClick}>
+          <Link href={"/"} onClick={handleClick} title={'Duo logo'}>
             <IconLogo width={127} height={73} />
           </Link>
         </div>
