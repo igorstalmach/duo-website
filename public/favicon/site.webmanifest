@@ -9,14 +9,19 @@
             "purpose": "maskable"
         },
         {
-            "src": "/android-chrome-512x512.png",
-            "sizes": "512x512",
+            "src": "/favicon-144x144.png",
+            "sizes": "144x144",
             "type": "image/png",
             "purpose": "any"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
     ],
     "theme_color": "#f5f5f7",
     "background_color": "#f5f5f7",
     "display": "standalone",
-    "start_url": "https://tapicerstwo-stalmach.pl/",
+    "start_url": "https://tapicerstwo-stalmach.pl/"
 }
