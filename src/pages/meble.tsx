@@ -32,7 +32,7 @@ const Meble: NextPageWithLayout = () => {
         />
         <link
           rel="canonical"
-          href="https://www.tapicerstwo-stalmach.pl/meble/"
+          href="https://tapicerstwo-stalmach.pl/meble/"
         />
       </Head>
       <SubpageHeader header={"MEBLE"} />

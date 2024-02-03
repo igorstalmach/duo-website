@@ -27,7 +27,7 @@ const Kontakt: NextPageWithLayout = () => {
         />
         <link
           rel="canonical"
-          href="https://www.tapicerstwo-stalmach.pl/kontakt/"
+          href="https://tapicerstwo-stalmach.pl/kontakt/"
         />
       </Head>
       <SubpageHeader header={"KONTAKT"} />

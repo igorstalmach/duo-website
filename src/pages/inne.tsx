@@ -32,7 +32,7 @@ const Inne: NextPageWithLayout = () => {
         />
         <link
           rel="canonical"
-          href="https://www.tapicerstwo-stalmach.pl/inne/"
+          href="https://tapicerstwo-stalmach.pl/inne/"
         />
       </Head>
       <SubpageHeader header={"INNE"} />

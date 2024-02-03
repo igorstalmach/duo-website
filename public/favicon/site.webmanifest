@@ -11,10 +11,12 @@
         {
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         }
     ],
     "theme_color": "#f5f5f7",
     "background_color": "#f5f5f7",
-    "display": "standalone"
+    "display": "standalone",
+    "start_url": "https://tapicerstwo-stalmach.pl/",
 }
